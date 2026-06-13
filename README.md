@@ -1,26 +1,23 @@
-name: Generate snake animation
+<p align="center">
+  <img src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C%23-896cd0.svg?style=for-the-badge&logo=csharp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+</p>
 
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+<p align="center">
+  <img src="https://lanyard.cnrad.dev/api/669373882100351036"/>
+</p>
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: SEU_USUARIO
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaudyyx&layout=compact&theme=radical"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Kaudy-6A0DAD?style=for-the-badge&logo=music&logoColor=white"/>
+</p>
+
+<p align="center">
+  <a href="https://discord.com/users/669373882100351036">
+    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>
+  </a>
+</p>
